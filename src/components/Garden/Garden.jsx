@@ -1,9 +1,9 @@
-import React from 'react';
-import PlantForm from '../PlantForm/PlantForm.jsx';
-import PlantList from '../PlantList/PlantList.jsx';
+import React from "react";
+import PlantForm from "../PlantForm/PlantForm.jsx";
+import PlantList from "../PlantList/PlantList.jsx";
 
 function Garden() {
-  return(
+  return (
     <div>
       <h2>This is the garden!</h2>
       {/* Redux State isn't needed in the garden, it is just a parent component */}
@@ -11,7 +11,7 @@ function Garden() {
       <PlantForm />
       <PlantList />
     </div>
-  )
+  );
 }
 
 export default Garden;
